@@ -1,0 +1,220 @@
+
+h4 {
+  color: #EEAF5F;
+  font-weight: bold;
+}
+
+section {
+  border: 6px solid #EEAF5F;
+}
+
+
+.bluebg {
+  background-color: #346A80;
+}
+.darkblue{
+  color: #133F54;
+  font-weight: bold;
+}
+.goldbg {
+  background-color: #EEAF5F;
+}
+.graybg{
+  background-color: #dbdddd;
+}
+
+.darkbluebg{
+  background-color: #133F54;
+  font-weight: bold;
+}
+
+
+.gold{
+  color:#EEAF5F;
+}
+
+
+
+
+
+
+
+.content {
+	
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding:30px;
+}
+
+
+#midContainer1 {
+    background-image: url("background0.png");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    background-color: #dbdddd;
+	
+    margin:0 auto;
+    border:none;
+}
+#midContainer2 {
+    background-image: url("background1.png");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    background-color: #dbdddd;
+}
+
+#midContainer3 {
+   border-top: 70px solid black;
+   color: white;
+}
+#midContainer4 {
+    background-image: url("Landing_image.png");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    background-color: #EEAF5F;
+}
+
+
+body{
+  padding: 20px;
+}
+
+
+nav a:hover {
+  background-color: #EEAF5F;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #EEAF5F;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width:90%;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+
+	body {
+		padding: 0px;
+	}
+  .column {
+    width: 100%;
+  }
+  
+  .content{
+	  width:95%;
+	  padding: 10px;
+
+  }
+  
+  img{
+	display: inline;
+	width: 70%;
+	padding: 0px;
+  }
+  
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+		body {
+		padding: 0px;
+	}
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  .content{
+    float:none;
+    width:95%;
+    padding: 10px;
+    background-color: #ffffff;
+ 
+  }
+  
+  #midContainer1 {
+    float: none;
+    width: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: #dbdddd;
+    margin:0px;
+    padding: 0px;
+    border:none;
+    display: contents;
+  }
+  #midContainer2{
+	float: none;
+    color: #fds;
+    width: 100%;
+    background-image: none;
+    background-color: #346A80;
+	margin: 0px;
+    padding: 0px;
+    display: contents;
+
+  }
+  
+
+  iframe{
+    float: none;
+    width: 350px;
+  }
+  section{
+    width: 100%;
+  }
+  img{
+	display: inline;
+	width: 70%;
+	padding: 0px;
+  }
+}
+
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
